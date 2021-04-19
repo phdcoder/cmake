@@ -4,6 +4,7 @@
 #   docker run -d --cap-add sys_ptrace -p127.0.0.1:2222:22 --name clion_remote_env phdcoder/cmake
 #   ssh-keygen -f "$HOME/.ssh/known_hosts" -R "[localhost]:2222"
 #
+#
 # stop:
 #   docker stop clion_remote_env
 # 
